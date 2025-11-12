@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pro Tricks - Social Media Automation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13ec6a",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#102217",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex min-h-screen w-full flex-col">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-10 flex items-center justify-between border-b border-white/10 bg-background-dark/80 p-4 pb-3 backdrop-blur-sm">
+<button class="text-white flex size-10 items-center justify-center rounded-full transition-colors hover:bg-white/10 active:bg-white/20">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+<h1 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Pro Tricks</h1>
+<div class="size-10"></div> <!-- Spacer -->
+</header>
+<!-- Main Content -->
+<main class="flex-grow pb-32">
+<!-- Accordions / Trick Cards -->
+<div class="flex flex-col p-4 gap-3">
+<details class="flex flex-col rounded-xl bg-white/5 px-4 py-2 group">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-white text-base font-medium leading-normal">Queue 30 posts in Buffer</p>
+<span class="material-symbols-outlined text-white transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="border-t border-primary/20 pt-3 mt-1">
+<p class="text-gray-400 text-sm font-normal leading-normal pb-2">
+                            Leverage Buffer's free plan to its maximum potential by scheduling up to 30 posts across three social channels. This is perfect for maintaining a consistent online presence without any cost.
+                        </p>
+</div>
+</details>
+<details class="flex flex-col rounded-xl bg-white/5 px-4 py-2 group">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-white text-base font-medium leading-normal">Meta Suite for unlimited FB+IG content</p>
+<span class="material-symbols-outlined text-white transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="border-t border-primary/20 pt-3 mt-1">
+<p class="text-gray-400 text-sm font-normal leading-normal pb-2">
+                            Use Meta Business Suite to schedule an unlimited number of posts, stories, and reels for your Facebook and Instagram accounts. A powerful, native tool that costs nothing.
+                        </p>
+</div>
+</details>
+<details class="flex flex-col rounded-xl bg-white/5 px-4 py-2 group">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-white text-base font-medium leading-normal">IFTTT multi-applet hack</p>
+<span class="material-symbols-outlined text-white transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="border-t border-primary/20 pt-3 mt-1">
+<p class="text-gray-400 text-sm font-normal leading-normal pb-2">
+                            Chain multiple free IFTTT applets together to create complex automation workflows. For example, automatically post your new blog article to Twitter, then have another applet share that tweet to a Discord channel.
+                        </p>
+</div>
+</details>
+<details class="flex flex-col rounded-xl bg-white/5 px-4 py-2 group">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-white text-base font-medium leading-normal">Rotate Gmail accounts for extra workspaces</p>
+<span class="material-symbols-outlined text-white transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="border-t border-primary/20 pt-3 mt-1">
+<p class="text-gray-400 text-sm font-normal leading-normal pb-2">
+                            Bypass limitations on platforms like Buffer by creating multiple free accounts using different Gmail addresses. This allows you to manage different sets of social profiles or projects separately.
+                        </p>
+</div>
+</details>
+<details class="flex flex-col rounded-xl bg-white/5 px-4 py-2 group">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-white text-base font-medium leading-normal">Self-host n8n for infinite runs</p>
+<span class="material-symbols-outlined text-white transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="border-t border-primary/20 pt-3 mt-1">
+<p class="text-gray-400 text-sm font-normal leading-normal pb-2">
+                            For the ultimate power user, self-hosting an automation tool like n8n on a cheap server gives you unlimited workflow executions and complete control over your automation stack.
+                        </p>
+</div>
+</details>
+</div>
+<!-- Action Panel / CTA -->
+<div class="p-4 @container">
+<div class="flex flex-1 flex-col items-start justify-between gap-4 rounded-lg border border-primary/30 bg-primary/10 p-5 @[480px]:flex-row @[480px]:items-center">
+<div class="flex flex-col gap-1">
+<p class="text-white text-base font-bold leading-tight">Join the community</p>
+<p class="text-primary/70 text-base font-normal leading-normal">Share your own tricks and learn from other automation experts in our community forum.</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-5 bg-primary text-background-dark text-sm font-bold leading-normal transition-transform active:scale-95">
+<span class="truncate">Join Forum</span>
+</button>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<footer class="fixed bottom-0 left-0 right-0 z-10">
+<div class="flex border-t border-white/10 bg-background-dark/80 px-4 pb-3 pt-2 backdrop-blur-sm">
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-gray-400" href="#">
+<span class="material-symbols-outlined">home</span>
+<p class="text-xs font-medium leading-normal">Home</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-gray-400" href="#">
+<span class="material-symbols-outlined">book</span>
+<p class="text-xs font-medium leading-normal">Learn</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-primary" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<p class="text-xs font-bold leading-normal">Pro Tricks</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-gray-400" href="#">
+<span class="material-symbols-outlined">settings</span>
+<p class="text-xs font-medium leading-normal">Settings</p>
+</a>
+</div>
+</footer>
+</div>
+</body></html>

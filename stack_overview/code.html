@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The 100% Free Stack</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13ec6a",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#102217",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-10 flex h-16 items-center border-b border-white/10 bg-background-light/80 px-4 backdrop-blur-sm dark:bg-background-dark/80">
+<button class="flex size-10 shrink-0 items-center justify-center text-zinc-900 dark:text-white">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+<h1 class="text-zinc-900 dark:text-white flex-1 text-center text-lg font-bold leading-tight tracking-[-0.015em] -ml-10">The 100% Free Stack</h1>
+</header>
+<main class="flex-1 px-4 pt-6 pb-28">
+<!-- Body Text -->
+<p class="text-zinc-600 dark:text-zinc-400 text-base font-normal leading-normal pb-6">The essential tools you'll need to build your automation bot for free.</p>
+<div class="space-y-3">
+<!-- List Item: n8n Cloud -->
+<div class="flex items-center gap-4 rounded-lg bg-white/50 p-3 dark:bg-black/20">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-12 shrink-0" data-alt="n8n logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBS7dNws_SMJHn4Xo8gfdKYMTMBFyQ2HB48iVhsHYABA5sR7IlMn0c-azV2b5PerISkkg3IjRcqvFh7q3wE1Tm-IwVTflX7-NOQTetM0bX3J4w80USHQ3N7Gmz7i7JmV71h_Gr_nu_KZcf9UEWmsExTnuynYOklVDVerJK9YGfxoIG4L-X7-45TNeAu9zeVvRJPJyvMvhcL_wsXyd1CSAAvlCbKz68CW09ZgrX4FRyG8OH6ESrPq706H5-r_wfaRppuib3v03sGhHes");'></div>
+<div class="flex-1">
+<div class="flex items-center justify-between gap-2">
+<p class="text-zinc-900 dark:text-white text-base font-medium leading-normal">n8n Cloud</p>
+<div class="shrink-0 rounded-full bg-primary/20 px-2.5 py-1 text-xs font-medium text-primary">Free Tier</div>
+</div>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm font-normal leading-normal">Connects apps and services to create automated workflows.</p>
+</div>
+</div>
+<!-- List Item: Buffer -->
+<div class="flex items-center gap-4 rounded-lg bg-white/50 p-3 dark:bg-black/20">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-12 shrink-0" data-alt="Buffer logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDCVekmNYGHPOKyIwKUvY5y1d7b91-mDj6soSGaVurFg8kueMh_EzKmVclwzN-nqC3kVsyGfFxiiWgVoLXVNJM176pJIcCUkzvdzAu0Lz_Emey-NglV2gdyuKlitQMwJttYouMXUPfHNYOovmA-MdVaV3i2Am4Rc8BHBzVoL_7uzJp_9cy862vWYBZkWwDL79ssZwNNpyfXbVwDzueAbENShORALxZnS0p7RjsCSoE_ATfyl-2uT6nGyaQPqkk048ZZOOUbJWdT4hh3");'></div>
+<div class="flex-1">
+<div class="flex items-center justify-between gap-2">
+<p class="text-zinc-900 dark:text-white text-base font-medium leading-normal">Buffer</p>
+<div class="shrink-0 rounded-full bg-primary/20 px-2.5 py-1 text-xs font-medium text-primary">Free Plan</div>
+</div>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm font-normal leading-normal">Schedules your social media posts in advance.</p>
+</div>
+</div>
+<!-- List Item: Meta Business Suite -->
+<div class="flex items-center gap-4 rounded-lg bg-white/50 p-3 dark:bg-black/20">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-12 shrink-0" data-alt="Meta logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCcUBLyOp8EjqKrSs_gwCbb9LurCFp3d5PBAMFngbXLZ2ZcIEl91BwYjHErywdq37nWonrBQt31SU8ShFAkRTqjOqWCAVtMkEznz8skkMdunqoOkxZGlUqZuA4Ojf49LYq8MKrSo22oHzUXQS75eVXjHuVWxJBGSEsJ-3GS4JQ-OSygBKe6kvGG02rWzyG4Fds1MP_3Mt_imw0K8olViU-UqcZF_QHiO68GebU3w-cGEROSU6ZxKdNVMzGVvC3KtQq2zmNbtV-os0TY");'></div>
+<div class="flex-1">
+<div class="flex items-center justify-between gap-2">
+<p class="text-zinc-900 dark:text-white text-base font-medium leading-normal">Meta Business Suite</p>
+<div class="shrink-0 rounded-full bg-primary/20 px-2.5 py-1 text-xs font-medium text-primary">Free</div>
+</div>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm font-normal leading-normal">Manages your Facebook and Instagram presence.</p>
+</div>
+</div>
+<!-- List Item: Google Sheets -->
+<div class="flex items-center gap-4 rounded-lg bg-white/50 p-3 dark:bg-black/20">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-12 shrink-0" data-alt="Google Sheets logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8nJGxI0AM89q4LQXEzKKBf18tWFon5w9B0Z9Ow883cdoS8GsFOPJRfpc82_05D-8ReTCYyVSbTt4-kVra_2LBEXZSBaaB0oljxr44wlKFPX5yFdMyIZ73yw1KTvKtCnS6CUyrfr2FNs0kzXbMCwBiqOkhfYqrfhh2Bg-tCSiKzP1-35lBuzGx8MOSfk7VLktsQoGtmd1D8XfZ6Hk4LU4_YL5SqH_djK5gMyCg9sNjwV9xMYB0C9kKPhykGeEVHhEUFnyB0s42Rgab");'></div>
+<div class="flex-1">
+<div class="flex items-center justify-between gap-2">
+<p class="text-zinc-900 dark:text-white text-base font-medium leading-normal">Google Sheets</p>
+<div class="shrink-0 rounded-full bg-primary/20 px-2.5 py-1 text-xs font-medium text-primary">Free</div>
+</div>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm font-normal leading-normal">Acts as your database to store and manage content.</p>
+</div>
+</div>
+<!-- List Item: Cloud Storage -->
+<div class="flex items-center gap-4 rounded-lg bg-white/50 p-3 dark:bg-black/20">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-12 shrink-0" data-alt="Google Drive logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBjc8wq3x415H4q9Jfuy81YxTpiYeMkJY19KC7QjCfhFnYJkaW3w9KY6OMKiZy2gUtwgMvJIkr0nAODHuxtoiPqCsFbipYiI5cYFnuZWf1KQo7lyKtcdR86E8i3GSMz06GFDa0aMWtqVKTK4ucX4Ei3f_G1QcXHGCFBQ8gQ2bkhgvdr_VJ_fNKspkDXt9yvkQZm5MIW-71y_XekuuN9iUsvsNXRjndwIVQKbwObN3DYVu5W8zZz_p1o1tEUJ5IqKRJJXXH8NAkMOfxh");'></div>
+<div class="flex-1">
+<div class="flex items-center justify-between gap-2">
+<p class="text-zinc-900 dark:text-white text-base font-medium leading-normal">Cloud Storage</p>
+<div class="shrink-0 rounded-full bg-primary/20 px-2.5 py-1 text-xs font-medium text-primary">Free Tier</div>
+</div>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm font-normal leading-normal">Stores your images, videos, and other media assets.</p>
+</div>
+</div>
+<!-- List Item: IFTTT -->
+<div class="flex items-center gap-4 rounded-lg bg-white/50 p-3 dark:bg-black/20">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-12 shrink-0" data-alt="IFTTT logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtgmnBAgLrU4I33kU6gEUmTb1GBgUsfnP7isqhY2a5MD1ESwUdv57b523Gli-gly4CqVYjmUmTvfqdS1ADBE9mA84ujP57_6iAlCb9HBvrbf8DAXVbwlUA1wHciCP3UiCI5P5qEjISUVWK-NbkvYnBuPHS5EzkH0RftbMzNLuvDL2c1fWlZndYXs4yinsKGS95e1I3wrMlZcVygQxaSvY4EELeVZzXKrER6n9jza1YNvEN02wjXi4yWfRxAmiWCGEKjXoRbRr4OChD");'></div>
+<div class="flex-1">
+<div class="flex items-center justify-between gap-2">
+<p class="text-zinc-900 dark:text-white text-base font-medium leading-normal">IFTTT</p>
+<div class="shrink-0 rounded-full bg-primary/20 px-2.5 py-1 text-xs font-medium text-primary">Free Plan</div>
+</div>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm font-normal leading-normal">Simple automation for specific triggers and actions.</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer CTA -->
+<footer class="fixed bottom-0 left-0 right-0 z-10 bg-background-light/80 p-4 pt-3 backdrop-blur-sm dark:bg-background-dark/80">
+<button class="flex h-14 w-full items-center justify-center rounded-lg bg-primary text-center text-base font-bold text-background-dark">Let's Get Started</button>
+</footer>
+</div>
+</body></html>

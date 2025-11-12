@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Build Your Robot Guide</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#13ec6a",
+            "background-light": "#f6f8f7",
+            "background-dark": "#102217",
+          },
+          fontFamily: {
+            "display": ["Spline Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+        --checkbox-tick-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(16,34,23)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e');
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden text-slate-800 dark:text-slate-200">
+<!-- Top App Bar -->
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10">
+<div class="text-slate-800 dark:text-slate-200 flex size-12 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined">arrow_back</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-50 text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Step-by-Step Guide</h2>
+<div class="flex size-12 shrink-0 items-center justify-center"></div>
+</div>
+<div class="px-4">
+<!-- Headline Text -->
+<h1 class="text-slate-900 dark:text-slate-50 tracking-tight text-[32px] font-bold leading-tight text-center pt-6 pb-3">Let's Build Your Robot!</h1>
+<!-- Body Text -->
+<p class="text-slate-600 dark:text-slate-400 text-base font-normal leading-normal text-center pb-3 pt-1">
+        Follow these simple steps to bring your social media bot to life. Mark each step as done when you're finished!
+      </p>
+<!-- Page Indicators / Progress Tracker -->
+<div class="flex w-full flex-row items-center justify-center gap-2 py-5">
+<div class="h-2 w-2 rounded-full bg-primary"></div>
+<div class="h-2 w-2 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+<div class="h-2 w-2 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+<div class="h-2 w-2 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+<div class="h-2 w-2 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+<div class="h-2 w-2 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+<div class="h-2 w-2 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+</div>
+</div>
+<!-- List of Steps -->
+<div class="flex flex-col gap-4 px-4 pb-24">
+<!-- Step 1 -->
+<div class="flex gap-4 bg-white dark:bg-slate-900/50 p-4 justify-between rounded-lg">
+<div class="flex items-start gap-4">
+<div class="text-slate-800 dark:text-slate-200 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 shrink-0 size-12">
+<span class="material-symbols-outlined">description</span>
+</div>
+<div class="flex flex-1 flex-col justify-center">
+<p class="text-slate-900 dark:text-slate-50 text-base font-medium leading-normal">Copy the Free Sheet</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal">Get the blueprint for your robot.</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center">
+<input class="h-5 w-5 rounded border-slate-300 dark:border-slate-600 border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-slate-300 dark:focus:border-slate-600 focus:outline-none" type="checkbox"/>
+</div>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex gap-4 bg-white dark:bg-slate-900/50 p-4 justify-between rounded-lg">
+<div class="flex items-start gap-4">
+<div class="text-slate-800 dark:text-slate-200 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 shrink-0 size-12">
+<span class="material-symbols-outlined">import_export</span>
+</div>
+<div class="flex flex-1 flex-col justify-center">
+<p class="text-slate-900 dark:text-slate-50 text-base font-medium leading-normal">Open n8n → import workflow</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal">Build the robot's brain.</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center">
+<input class="h-5 w-5 rounded border-slate-300 dark:border-slate-600 border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-slate-300 dark:focus:border-slate-600 focus:outline-none" type="checkbox"/>
+</div>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex gap-4 bg-white dark:bg-slate-900/50 p-4 justify-between rounded-lg">
+<div class="flex items-start gap-4">
+<div class="text-slate-800 dark:text-slate-200 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 shrink-0 size-12">
+<span class="material-symbols-outlined">cable</span>
+</div>
+<div class="flex flex-1 flex-col justify-center">
+<p class="text-slate-900 dark:text-slate-50 text-base font-medium leading-normal">Connect Buffer</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal">Link your first messenger.</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center">
+<input class="h-5 w-5 rounded border-slate-300 dark:border-slate-600 border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-slate-300 dark:focus:border-slate-600 focus:outline-none" type="checkbox"/>
+</div>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex gap-4 bg-white dark:bg-slate-900/50 p-4 justify-between rounded-lg">
+<div class="flex items-start gap-4">
+<div class="text-slate-800 dark:text-slate-200 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 shrink-0 size-12">
+<span class="material-symbols-outlined">hub</span>
+</div>
+<div class="flex flex-1 flex-col justify-center">
+<p class="text-slate-900 dark:text-slate-50 text-base font-medium leading-normal">Connect Meta Suite</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal">Connect to Facebook &amp; Instagram.</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center">
+<input class="h-5 w-5 rounded border-slate-300 dark:border-slate-600 border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-slate-300 dark:focus:border-slate-600 focus:outline-none" type="checkbox"/>
+</div>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="flex gap-4 bg-white dark:bg-slate-900/50 p-4 justify-between rounded-lg">
+<div class="flex items-start gap-4">
+<div class="text-slate-800 dark:text-slate-200 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 shrink-0 size-12">
+<span class="material-symbols-outlined">bolt</span>
+</div>
+<div class="flex flex-1 flex-col justify-center">
+<p class="text-slate-900 dark:text-slate-50 text-base font-medium leading-normal">Add IFTTT applets</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal">Give your robot superpowers.</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center">
+<input class="h-5 w-5 rounded border-slate-300 dark:border-slate-600 border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-slate-300 dark:focus:border-slate-600 focus:outline-none" type="checkbox"/>
+</div>
+</div>
+</div>
+<!-- Step 6 -->
+<div class="flex gap-4 bg-white dark:bg-slate-900/50 p-4 justify-between rounded-lg">
+<div class="flex items-start gap-4">
+<div class="text-slate-800 dark:text-slate-200 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 shrink-0 size-12">
+<span class="material-symbols-outlined">upload_file</span>
+</div>
+<div class="flex flex-1 flex-col justify-center">
+<p class="text-slate-900 dark:text-slate-50 text-base font-medium leading-normal">Drop video + caption in sheet</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal">Load your content.</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center">
+<input class="h-5 w-5 rounded border-slate-300 dark:border-slate-600 border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-slate-300 dark:focus:border-slate-600 focus:outline-none" type="checkbox"/>
+</div>
+</div>
+</div>
+<!-- Step 7 -->
+<div class="flex gap-4 bg-white dark:bg-slate-900/50 p-4 justify-between rounded-lg">
+<div class="flex items-start gap-4">
+<div class="text-slate-800 dark:text-slate-200 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 shrink-0 size-12">
+<span class="material-symbols-outlined">rocket_launch</span>
+</div>
+<div class="flex flex-1 flex-col justify-center">
+<p class="text-slate-900 dark:text-slate-50 text-base font-medium leading-normal">Hit Execute</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal">Time for launch!</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center">
+<input class="h-5 w-5 rounded border-slate-300 dark:border-slate-600 border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-slate-300 dark:focus:border-slate-600 focus:outline-none" type="checkbox"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Floating Action Button -->
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent">
+<button class="w-full rounded-full bg-primary py-4 px-8 text-center text-base font-bold text-background-dark shadow-lg">
+            Complete Setup
+        </button>
+</div>
+</div>
+</body></html>
