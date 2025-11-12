@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Robot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Social Media Robot</h1>
+    <p>Automate Your Social Media Across All Platforms</p>
+  </header>
+
+  <main>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Post to Twitter</li>
+        <li>Save drafts</li>
+        <li>Publish posts instantly</li>
+      </ul>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div class="pricing-table">
+        <div class="pricing-tier">
+          <h3>Free</h3>
+          <p class="price">$0/mo</p>
+          <ul>
+            <li>1 account</li>
+            <li>10 posts/month</li>
+            <li>10 API calls/day</li>
+          </ul>
+          <button class="cta-button" data-price-id="price_123">Start Free Trial</button>
+        </div>
+        <div class="pricing-tier">
+          <h3>Pro</h3>
+          <p class="price">$29/mo</p>
+          <ul>
+            <li>5 accounts</li>
+            <li>Unlimited posts</li>
+            <li>500 API calls/day</li>
+          </ul>
+          <button class="cta-button" data-price-id="price_456">Get Started</button>
+        </div>
+        <div class="pricing-tier">
+          <h3>Business</h3>
+          <p class="price">$99/mo</p>
+          <ul>
+            <li>25 accounts</li>
+            <li>Unlimited posts</li>
+            <li>Unlimited API calls</li>
+          </ul>
+          <button class="cta-button" data-price-id="price_789">Contact Us</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="script.js"></script>
+</body>
+</html>
